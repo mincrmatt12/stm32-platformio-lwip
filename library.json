@@ -1,0 +1,24 @@
+{
+    "authors": [
+        {
+            "maintainer": true,
+            "name": "Matthew Mirvish"
+        },
+        {
+            "name": "STMicroelectronics & LwIP developers"
+        }
+    ],
+    "build": {
+        "extraScript": "add_config.py"
+    },
+    "description": "This library links in the STM32Cube version of LwIP to your project. It does _not_ include the stub ethernetif.c and other assorted files required to use the Ethernet library. These may be released as a separate library at some point\nin the future, however for now copy them from an STM32CubeMX project. If you include the FreeRTOS library as well, a CubeMX project should compile under platformio.\n\n<todo config>\n",
+    "frameworks": "stm32cube",
+    "keywords": "socket",
+    "name": "STM32Cube Middleware-LwIP",
+    "platforms": "ststm32",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mincrmatt12/stm32-platformio-lwip.git"
+    },
+    "version": "2.0"
+}
