@@ -14,7 +14,7 @@
     "dependencies": {
         "6696": "2.0"
     },
-    "description": "This library links in the STM32Cube version of LwIP to your project. It does _not_ include the stub ethernetif.c and other assorted files required to use the Ethernet library. These may be released as a separate library at some point\nin the future, however for now copy them from an STM32CubeMX project. If you include the FreeRTOS library as well, a CubeMX project should compile under platformio.\n\n<todo config>\n",
+    "description": "This library links in the STM32Cube version of LwIP to your project.",
     "frameworks": "stm32cube",
     "keywords": "socket",
     "name": "STM32Cube Middleware-LwIP",
