@@ -21,7 +21,7 @@
     "platforms": "ststm32",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mincrmatt12/stm32-platformio-lwip.git"
+        "url": "https://github.com/mincrmatt12/stm32cube-platformio-lwip.git"
     },
     "version": "2.0"
 }
