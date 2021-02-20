@@ -12,7 +12,7 @@
         "extraScript": "add_config.py"
     },
     "dependencies": {
-        "6696": "2.0"
+        "6696": "10.0.1+f2-1.9.2"
     },
     "description": "This library links in the STM32Cube version of LwIP to your project.",
     "frameworks": "stm32cube",
@@ -21,7 +21,7 @@
     "platforms": "ststm32",
     "repository": {
         "type": "git",
-        "url": "https://github.com/mincrmatt12/stm32cube-platformio-lwip.git"
+        "url": "https://github.com/mincrmatt12/stm32-platformio-lwip.git"
     },
-    "version": "2.0"
+    "version": "2.0.3+f2-1.9.2"
 }
